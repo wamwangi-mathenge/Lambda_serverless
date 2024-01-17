@@ -27,7 +27,7 @@ The following inventory files are provided for testing the system:
 
 ## Getting Started
 
-To set up and test the inventory tracking system, follow the step-by-step guide provided in the [project walkthrough](#). Ensure you have the necessary AWS account, services, and permissions in place.
+To set up and test the inventory tracking system, follow the step-by-step guide provided in the [project walkthrough](https://medium.com/@brian639/a-step-by-step-walk-through-to-implementing-an-inventory-tracking-system-using-aws-serverless-ba4a8cde6e6d). Ensure you have the necessary AWS account, services, and permissions in place.
 
 ## How to Use
 
