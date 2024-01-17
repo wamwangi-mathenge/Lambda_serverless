@@ -7,11 +7,11 @@ The goal of this project is to demonstrate the implementation of a serverless ar
 
 ### Lambda Functions
 
-1. **Load-Inventory Lambda Function (`check_inventory_lambda_function.py`):**
+1. **Load-Inventory Lambda Function (`load_data_lambda_function.py`):**
    - Downloads an inventory file from S3.
    - Inserts each line of the file into a DynamoDB table named 'Inventory'.
 
-2. **Check-Stock Lambda Function (`load_data_lambda_function.py`):**
+2. **Check-Stock Lambda Function (`check_inventory_lambda_function.py`):**
    - Triggered when values are inserted into the 'Inventory' DynamoDB table.
    - Checks inventory counts and sends a notification to an SNS topic if an item is out of stock.
 
